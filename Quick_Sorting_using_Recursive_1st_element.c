@@ -56,4 +56,5 @@ int main(void)
     printf("The Sorted Array: ");
     display(arr, size);
 
+    free(arr);
 }
